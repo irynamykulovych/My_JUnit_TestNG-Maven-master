@@ -29,11 +29,18 @@ public class SimpleTestClass {
         int expectedResult = 50;
         assertEquals( actualResult, expectedResult, "10 * 5 must be 50");
     }
+
     @Test
     public void testDivisionTwoPositiveValues() {
         int actualResult = calc.division(10, 5);
         int expectedResult = 2;
         assertEquals( actualResult, expectedResult, "10 / 5 must be 2");
+    }
+    @Test
+    public void testExtentPositiveValues() {
+        int actualResult = calc.extent(10);
+        int expectedResult = 100;
+        assertEquals( actualResult, expectedResult, "10*10 must be 100");
     }
 
 

@@ -26,6 +26,10 @@ public class Calculator {
     //TODO add method for square root (use Math class)
 
     //TODO add method for x^2
+    public int extent(int a) {
+        return a * a;
+    }
+
 
     //***************Medium methods************************
 
