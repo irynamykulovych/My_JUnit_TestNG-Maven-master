@@ -42,7 +42,6 @@ public class SimpleTestClass {
         int expectedResult = 100;
         assertEquals( actualResult, expectedResult, "10*10 must be 100");
     }
-    }}
     @Test
     public void testExtentNegativeValues() {
         int actualResult = calc.extent(-10);
